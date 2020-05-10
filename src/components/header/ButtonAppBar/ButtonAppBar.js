@@ -10,18 +10,18 @@ import TextButtons from "../TextButtons/TextButtons";
 
 
 
-export default function ButtonAppBar() {
+export default function ButtonAppBar(props) {
     const classes = useStyles();
 
     return (
         <div className={classes.root}>
             <AppBar position="static" color="transparent" className={classes.paperContainer}>
                 <Toolbar variant="dense" >
-                    <TextButtons></TextButtons>
-                    <TextButtons></TextButtons>
-                    <TextButtons></TextButtons>
-                    <TextButtons></TextButtons>
-                    <TextButtons></TextButtons>
+                    <TextButtons>Courses</TextButtons>
+                    <TextButtons>Exercices</TextButtons>
+                    <TextButtons>Examples</TextButtons>
+                    <TextButtons>Statistiques</TextButtons>
+                    <TextButtons>author</TextButtons>
 
                 </Toolbar>
             </AppBar>
