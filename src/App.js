@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import HideAppBar from "./components/header/HideAppBar";
-import ButtonAppBar from "./components/header/ButtonAppBar";
+import HideAppBar from "./components/header/HideAppBar/HideAppBar";
+import ButtonAppBar from "./components/header/ButtonAppBar/ButtonAppBar";
 
 function App() {
   return (

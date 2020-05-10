@@ -5,7 +5,8 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
-import {useStyles } from './style2';
+import {useStyles } from './style';
+import TextButtons from "../TextButtons/TextButtons";
 
 
 
@@ -16,6 +17,11 @@ export default function ButtonAppBar() {
         <div className={classes.root}>
             <AppBar position="static" color="transparent" className={classes.paperContainer}>
                 <Toolbar variant="dense" >
+                    <TextButtons></TextButtons>
+                    <TextButtons></TextButtons>
+                    <TextButtons></TextButtons>
+                    <TextButtons></TextButtons>
+                    <TextButtons></TextButtons>
 
                 </Toolbar>
             </AppBar>
