@@ -59,7 +59,7 @@ export default function HideAppBar(props) {
                                 <MenuIcon />
                             </IconButton>
                             <Typography className={classes.title} variant="h5" noWrap>
-                                
+
                             </Typography>
                             <IconButton aria-label="search" color="inherit">
                                 <SearchIcon />
@@ -71,12 +71,7 @@ export default function HideAppBar(props) {
                     </AppBar>
                 </div>
             </HideOnScroll>
-            <Toolbar />
-            <Container>
-                <Box my={10}>
 
-                </Box>
-            </Container>
         </React.Fragment>
     );
 }
