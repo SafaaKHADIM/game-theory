@@ -11,7 +11,7 @@ export default function TextButtons(props) {
     return (
         <div className={classes.root}>
             <Button href={props.href} style={props.style}>
-                <Typography variant="h6" gutterBottom color="primary" className={{color : classes.color}}>
+                <Typography variant="h6" gutterBottom >
                     {props.children}
                 </Typography>
             </Button>
