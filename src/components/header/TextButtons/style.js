@@ -6,4 +6,7 @@ export const useStyles = makeStyles((theme) => ({
             margin: theme.spacing(1),
         },
     },
+    color:{
+        primary:'#ff6d00',
+    }
 }));

@@ -10,8 +10,8 @@ export default function TextButtons(props) {
 
     return (
         <div className={classes.root}>
-            <Button href={props.href} style={{ marginLeft: '105px' }}>
-                <Typography variant="h6" gutterBottom>
+            <Button href={props.href} style={props.style}>
+                <Typography variant="h6" gutterBottom color="primary" className={{color : classes.color}}>
                     {props.children}
                 </Typography>
             </Button>

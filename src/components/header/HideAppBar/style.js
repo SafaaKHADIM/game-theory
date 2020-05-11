@@ -9,7 +9,7 @@ export const useStyles = makeStyles((theme) => ({
         marginRight: theme.spacing(2),
     },
     toolbar: {
-        minHeight: 530,
+        minHeight: 540,
         alignItems: 'flex-start',
         paddingTop: theme.spacing(1),
         paddingBottom: theme.spacing(2),

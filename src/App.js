@@ -14,7 +14,7 @@ function App() {
       <HideAppBar></HideAppBar>
       <ButtonAppBar></ButtonAppBar>
         <br /> <br />
-      <NestedGrid></NestedGrid>
+        <NestedGrid></NestedGrid>
     </div>
   );
 }
