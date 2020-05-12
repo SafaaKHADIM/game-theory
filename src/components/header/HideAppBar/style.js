@@ -20,5 +20,6 @@ export const useStyles = makeStyles((theme) => ({
     },
     paperContainer: {
         backgroundImage: `url(${Image})`
+
     },
 }));

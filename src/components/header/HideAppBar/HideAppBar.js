@@ -48,7 +48,7 @@ export default function HideAppBar(props) {
             <CssBaseline />
             <HideOnScroll {...props}>
                 <div className={classes.root}>
-                    <AppBar position="static" className={classes.paperContainer}>
+                    <AppBar position="static" className={classes.paperContainer} style={{height:'auto',width:'100%'}}>
                         <Toolbar className={classes.toolbar}>
                             <IconButton
                                 edge="start"
